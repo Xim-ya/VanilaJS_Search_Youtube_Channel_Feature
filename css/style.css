@@ -29,8 +29,48 @@ body {
     width: 360px;
 }
 
+.search_input {
+    display: none;
+}
+
+.search_input input {
+    height: 60px;
+    width: 80%;
+    border-radius: 60px;
+    margin-right: 100px;
+    padding-left: 60px;
+    top: 0;
+    outline: none;
+    border: none;
+    background-color: white;
+    position: absolute;
+    font-size: 16px;
+}
+
+.search_input.active {
+    width: 100%;
+    display: inline;
+    border-radius: 60px;
+
+}
+
+.search_input button {
+    position: absolute;
+    right: 20px;
+    border: none;
+    background-color: white;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_input button img {
+}
+
 .icon_container {
     position: absolute;
+    z-index: 2;
     left: 0;
     height: 60px;
     width: 60px;
@@ -41,8 +81,8 @@ body {
 }
 
 .search_icon {
-    height: 44px;
-    width: 44px;
+    height: 32px;
+    width: 32px;
 }
 
 .search_icon.active {

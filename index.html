@@ -11,11 +11,17 @@
 <body>
 <section class='search'>
     <div data-search="bar" class='search_bar'>
-        <div class="icon_container">
-            <img data-search="icon" class='search_icon' src="assets/search_ic.svg" alt="searchIcon"/>
+        <div data-search="icon" class="icon_container">
+            <img class='search_icon' src="assets/search_ic.svg" alt="searchIcon"/>
+        </div>
+        <div data-search="input" class="search_input">
+            <input type="text" placeholder="유튜브 채널을 검색하세요">
+            <button data-search="clearBtn">
+                <img src="assets/close_ic.svg" alt="closeIcon">
+            </button>
         </div>
     </div>
 </section>
 </body>
-<script src="js/search.js"></script>
+<script type="module" src="js/search.js"></script>
 </html>
