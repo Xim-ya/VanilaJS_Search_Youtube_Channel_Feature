@@ -1,14 +1,17 @@
-import axios from '/node_modules/axios/dist/axios.min.';
+import Config from "./config.js";
 
+const YOUTUBEURL = 'https://www.googleapis.com/youtube/v3/search?part=snippet&';
+const YOUTUBEKEY =  'AIzaSyCIYVB7l7anQLIxmops2GWA6sQFmG8VxmY';
 
- const loadYoutubeChannelList = (url, config) => {
+export const loadYoutubeChannelList = (url, config) => {
+    const axios = window.axios;
     const searchChannelParams = new URLSearchParams({
-        key: 'AIzaSyCIYVB7l7anQLIxmops2GWA6sQFmG8VxmY',
+        key: YOUTUBEKEY,
         type: 'channel',
         maxResults: '5',
         q: '오킹'
     }).toString();
-    const searchYoutubeChannelUrl = 'https://www.googleapis.com/youtube/v3/search?part=snippet&' + searchChannelParams;
+    const searchYoutubeChannelUrl = YOUTUBEURL + searchChannelParams;
     axios
         .get(searchYoutubeChannelUrl, {}, {})
         .then(res => {
@@ -20,7 +23,6 @@ import axios from '/node_modules/axios/dist/axios.min.';
         })
 };
 
-//
-//
+
 // // const kakaoSignInUrl = config.api.KAKAOSIGNINURL + signInParams;
 // // https://www.googleapis.com/youtube/v3/search?part=snippet&key=AIzaSyCIYVB7l7anQLIxmops2GWA6sQFmG8VxmY&type=channel&maxResults=10&q=오킹
