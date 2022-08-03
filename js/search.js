@@ -6,9 +6,12 @@ const searchInputContainer = document.querySelector('[data-search = input_contai
 const searchInput = document.querySelector('[data-search = input]');
 const clearBtn = document.querySelector('[data-search = clearBtn]');
 const searchForm = document.querySelector('[data-search = form]');
+const channelList = document.querySelector('[data-channel = list]');
 
 
-const ACTIVE = 'active';
+const ACTIVE = 'active'; // Search Bar 애니메이션 Toggle 값.
+const CHANNEL_LOADED = false; // 채널 정보 호출 여부
+
 
 
 // 원형의 SearchBar을 클릭했을 때
@@ -42,9 +45,13 @@ const searchYoutubeChannel = (event) => {
     loadYoutubeChannelList();
 };
 
+const insertChannelItem = () => {
+        
+
+};
+
 
 // const kakaoSign
-
 searchIcon.addEventListener('click' , onSearchBarTapHandler);
 clearBtn.addEventListener('click', onClearBtnTapHandler);
 searchInput.addEventListener('input', onTextInput);

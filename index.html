@@ -10,20 +10,40 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 <body>
-<section class='search'>
-    <div data-search="bar" class='search_bar'>
-        <div data-search="icon" class="icon_container">
-            <img class='search_icon' src="assets/search_ic.svg" alt="searchIcon"/>
+<section class="container">
+    <div class='search'>
+        <div data-search="bar" class='search_bar'>
+            <div data-search="icon" class="icon_container">
+                <img class='search_icon' src="assets/search_ic.svg" alt="searchIcon"/>
+            </div>
+            <label data-search="input_container" class="search_input">
+                <form data-search="form">
+                    <input data-search="input" type="text" placeholder="유튜브 채널을 검색하세요">
+                </form>
+                <button data-search="clearBtn">
+                    <img src="assets/close_ic.svg" alt="closeIcon">
+                </button>
+            </label>
         </div>
-        <label data-search="input_container" class="search_input">
-            <form data-search="form">
-                <input data-search="input" type="text" placeholder="유튜브 채널을 검색하세요">
-            </form>
-            <button data-search="clearBtn">
-                <img src="assets/close_ic.svg" alt="closeIcon">
-            </button>
-        </label>
     </div>
+    <ul data-channel='list' class="channel_list">
+        <li>
+            <div class="channel_img"></div>
+            <span class="channel_name"></span>
+        </li>
+        <li>
+            <div class="channel_img"></div>
+            <span class="channel_name"></span>
+        </li>
+        <li>
+            <div class="channel_img"></div>
+            <span class="channel_name"></span>
+        </li>
+        <li>
+            <div class="channel_img"></div>
+            <span class="channel_name"></span>
+        </li>
+    </ul>
 </section>
 </body>
 
