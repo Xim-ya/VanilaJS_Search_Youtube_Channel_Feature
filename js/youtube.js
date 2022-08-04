@@ -1,4 +1,4 @@
-import Config from "./config.js";
+const channelList = document.querySelector('[data-channel = list]');
 
 const YOUTUBE_URL = 'https://www.googleapis.com/youtube/v3/search?part=snippet&';
 const YOUTUBE_KEY =  'AIzaSyCIYVB7l7anQLIxmops2GWA6sQFmG8VxmY';
@@ -17,13 +17,29 @@ export const loadYoutubeChannelList = (url, config) => {
     axios
         .get(searchYoutubeChannelUrl, {}, {})
         .then(res => {
-            console.log(res);
-            console.log('aim22 '+ searchYoutubeChannelUrl);
+            insertChannelItem(res.data.items);
         })
         .catch(error => {
             alert("응답값을 찾을 수 없습니다.-> " + searchYoutubeChannelUrl);
         })
 };
+
+
+const insertChannelItem = (channelListData) => {
+    channelList.innerHTML = ''; // 검색된 채널 list 초기화
+    // channelList.classList.toggle(ACTIVE);
+    channelList.classList.add('show');
+    channelListData.map((ele) => {
+        channelList.insertAdjacentHTML("beforeend",
+            `<li>
+            <div class="channel_img"></div>
+                <span class="channel_name">${ele['snippet']['title']}</span>
+           </li>`
+        )
+    })
+};
+
+
 
 
 // // const kakaoSignInUrl = config.api.KAKAOSIGNINURL + signInParams;

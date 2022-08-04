@@ -1,0 +1,292 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "pXiMHvwPkC4niqq0hvgqanq2y3g",
+  "nextPageToken": "CAoQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 793,
+    "resultsPerPage": 10
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_5w2KywwaI7DLdu7hKsEFiaxfs0",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCom6YhUY62jM52nIMjf5_dw"
+      },
+      "snippet": {
+        "publishedAt": "2017-10-16T15:46:11Z",
+        "channelId": "UCom6YhUY62jM52nIMjf5_dw",
+        "title": "오킹TV",
+        "description": "안녕하세요 크리에이터 오킹입니다 ! 근거없는 낭설 / 악플, 싸움조장 / 해당 영상과 관련없는 댓글 삭제 합니다. 각종 공지는 네이버 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/jYOJyrwBpzE5ROYRfpaaW0sH19k_ManuoXC6_fQBz9KoE-nwzagPlVLaCjlXFIH0pOX8PVSk3Q=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/jYOJyrwBpzE5ROYRfpaaW0sH19k_ManuoXC6_fQBz9KoE-nwzagPlVLaCjlXFIH0pOX8PVSk3Q=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/jYOJyrwBpzE5ROYRfpaaW0sH19k_ManuoXC6_fQBz9KoE-nwzagPlVLaCjlXFIH0pOX8PVSk3Q=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "오킹TV",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2017-10-16T15:46:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "-a_JI79FQT1HJQufkx2GxNDEGhA",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCsX8VcWlDMNsRCYCXrROk0g"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-02T14:01:15Z",
+        "channelId": "UCsX8VcWlDMNsRCYCXrROk0g",
+        "title": "오킹받네",
+        "description": "오킹 쇼츠 (키가 작다는 뜻은 아....님.........!) 무지성 악플 및 싸움 조장 댓글은 무통보 삭제 처리될 수 있습니다 오킹님 공식 채널이 아닌 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/rmU0n-YDu4SnadlsKk37eDRBq4q_8W441xqXbCPkqoSWsqB3bcSdfKZb-pTIMA6o4a_1KnoFdA=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/rmU0n-YDu4SnadlsKk37eDRBq4q_8W441xqXbCPkqoSWsqB3bcSdfKZb-pTIMA6o4a_1KnoFdA=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/rmU0n-YDu4SnadlsKk37eDRBq4q_8W441xqXbCPkqoSWsqB3bcSdfKZb-pTIMA6o4a_1KnoFdA=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "오킹받네",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-02T14:01:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7XlIaA1TfZXJjoqI5iz8rhaABpA",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCnVu56UaRv_s_xheV30IhZw"
+      },
+      "snippet": {
+        "publishedAt": "2019-01-26T10:18:32Z",
+        "channelId": "UCnVu56UaRv_s_xheV30IhZw",
+        "title": "오킹의 생방송",
+        "description": "안녕하세요 종합 컨텐츠 크리에이터 오킹의 생방송 다시보기 채널입니다!",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu_tDk30o4ADWIBmo7LeiYm3LOzIchltOjYyhfDa=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu_tDk30o4ADWIBmo7LeiYm3LOzIchltOjYyhfDa=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu_tDk30o4ADWIBmo7LeiYm3LOzIchltOjYyhfDa=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "오킹의 생방송",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-01-26T10:18:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "N_mczSjvNKTaQ8yhF8O-DhiFvc0",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCw3CIQ4j-zy0zC_2RcEwetQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-08-18T10:52:56Z",
+        "channelId": "UCw3CIQ4j-zy0zC_2RcEwetQ",
+        "title": "오킹 사생팬",
+        "description": "오킹 사생팬 입니다. 문제될 시 영상 삭제하도록 하겠습니다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/Ed0LIjvNrFTeSARJVvntBGDmyfHHqH7UW2l4_R045yPGMdqGhHUGvoyuu5eLqXrHP0HLlXQvXQ=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/Ed0LIjvNrFTeSARJVvntBGDmyfHHqH7UW2l4_R045yPGMdqGhHUGvoyuu5eLqXrHP0HLlXQvXQ=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/Ed0LIjvNrFTeSARJVvntBGDmyfHHqH7UW2l4_R045yPGMdqGhHUGvoyuu5eLqXrHP0HLlXQvXQ=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "오킹 사생팬",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2021-08-18T10:52:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gbv54AjEPSjLFtArXo25I_TC-jc",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCFFgB2HEFbTD6Vmm503vzqQ"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-28T02:27:24Z",
+        "channelId": "UCFFgB2HEFbTD6Vmm503vzqQ",
+        "title": "주주랜드 ZooZooLand",
+        "description": "주린이들에 의한 주린이들을 위한 다채롭고 즐거운 경제 어트랙션 주주랜드에 오신 것을 환영합니다 주주랜드 안내소 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/zSjzaoVeBEU00QqlMJDaiR1SKXvwVHOnsA3azpg6RTui7dt3YN7SFasBvEPV3gbQYofVyHe0vw=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/zSjzaoVeBEU00QqlMJDaiR1SKXvwVHOnsA3azpg6RTui7dt3YN7SFasBvEPV3gbQYofVyHe0vw=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/zSjzaoVeBEU00QqlMJDaiR1SKXvwVHOnsA3azpg6RTui7dt3YN7SFasBvEPV3gbQYofVyHe0vw=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "주주랜드 ZooZooLand",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-28T02:27:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UnHKbJaWofPxliz_xDTjnAnWYGE",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCk_Q4zVCbpMEj74d9gFUa3w"
+      },
+      "snippet": {
+        "publishedAt": "2021-10-03T18:11:04Z",
+        "channelId": "UCk_Q4zVCbpMEj74d9gFUa3w",
+        "title": "오.사.모 (오킹을 사모하는 모임)",
+        "description": "오킹의 팬오픈채팅 '오사모'의 유튜브 채널입니다~",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/Yu5p3ddsVo-z2GzbZWPYfr0cVp2TB0nv0FscQ0CR7uFjusfHeXJ9ppI4lFnANNxWXceFvRwt=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/Yu5p3ddsVo-z2GzbZWPYfr0cVp2TB0nv0FscQ0CR7uFjusfHeXJ9ppI4lFnANNxWXceFvRwt=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/Yu5p3ddsVo-z2GzbZWPYfr0cVp2TB0nv0FscQ0CR7uFjusfHeXJ9ppI4lFnANNxWXceFvRwt=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "오.사.모 (오킹을 사모하는 모임)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-10-03T18:11:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "LF89wMWiXnVQqwWT-H1UDJlkE-8",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UC8uheivliZr4nI2rSHeUhCA"
+      },
+      "snippet": {
+        "publishedAt": "2022-03-20T10:03:03Z",
+        "channelId": "UC8uheivliZr4nI2rSHeUhCA",
+        "title": "세나えび(세나애비)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/AT-w1P1IbCq0zZUnm2sNImmp72UHxV_tBh7HH_flOcjR1BzAmhyeyjJgwhX620cFqepREjjj=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/AT-w1P1IbCq0zZUnm2sNImmp72UHxV_tBh7HH_flOcjR1BzAmhyeyjJgwhX620cFqepREjjj=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/AT-w1P1IbCq0zZUnm2sNImmp72UHxV_tBh7HH_flOcjR1BzAmhyeyjJgwhX620cFqepREjjj=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "세나えび(세나애비)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-03-20T10:03:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5S0Q6CHCWITDTWv7BSr1KyDH_1g",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UC8dFtyqgm7UqLcJD_sYVJ4w"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-09T07:48:56Z",
+        "channelId": "UC8dFtyqgm7UqLcJD_sYVJ4w",
+        "title": "정준하하하",
+        "description": "여러분과 편하고 폭넓게 소통하는 [정준하하하] 유튜브 채널에 오신 걸 환영합니다. ※ 동영상을 공유하실 때 링크와 출처를 반드시 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/lWgUCGW1XOzl9PgU93FQFoNvA4tI-b5GUUuY7ORLJvzR0W7lKTHOtTElZqI1Sr1kFV1G6kCIuQ=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/lWgUCGW1XOzl9PgU93FQFoNvA4tI-b5GUUuY7ORLJvzR0W7lKTHOtTElZqI1Sr1kFV1G6kCIuQ=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/lWgUCGW1XOzl9PgU93FQFoNvA4tI-b5GUUuY7ORLJvzR0W7lKTHOtTElZqI1Sr1kFV1G6kCIuQ=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "정준하하하",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-09T07:48:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wtxJgs-b8V-kl_Eh5SMazqHgXOY",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UC9_J48OjNuU0La2f6nozqJw"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-03T15:28:09Z",
+        "channelId": "UC9_J48OjNuU0La2f6nozqJw",
+        "title": "오킹 저장소",
+        "description": "본 채널은 단순 팬 계정으로 어떤 방식으로도 일체 수익창출 하지 않습니다. 저작권 관련 요청 시 확인 후 바로 영상 삭제조치 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/GQsgQyYRXAM4cLZ1IY_MQZWqvhTCJdaGf6wve1Gcu1yh_2PX-epeCcawDFFCcjSrFPtxydC6ig=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/GQsgQyYRXAM4cLZ1IY_MQZWqvhTCJdaGf6wve1Gcu1yh_2PX-epeCcawDFFCcjSrFPtxydC6ig=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/GQsgQyYRXAM4cLZ1IY_MQZWqvhTCJdaGf6wve1Gcu1yh_2PX-epeCcawDFFCcjSrFPtxydC6ig=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "오킹 저장소",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-03T15:28:09Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pHw_O6VRNloTMpDQ772vz4QwEl8",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCw0hHz9-lFd5YWDbHYoVY-Q"
+      },
+      "snippet": {
+        "publishedAt": "2012-11-19T18:38:32Z",
+        "channelId": "UCw0hHz9-lFd5YWDbHYoVY-Q",
+        "title": "오킹도킹",
+        "description": "반갑습니다. 모두 안전하고 즐거운 라이딩되세요♡ 인스타ID okingdoking_ 충청밴드 Free Style.",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu_DEH6C1TO9f2w4-pLxzSHpHbxR8mGwTW6Cy4eJ4A=s88-c-k-c0xffffffff-no-rj-mo"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu_DEH6C1TO9f2w4-pLxzSHpHbxR8mGwTW6Cy4eJ4A=s240-c-k-c0xffffffff-no-rj-mo"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/ytc/AMLnZu_DEH6C1TO9f2w4-pLxzSHpHbxR8mGwTW6Cy4eJ4A=s800-c-k-c0xffffffff-no-rj-mo"
+          }
+        },
+        "channelTitle": "오킹도킹",
+        "liveBroadcastContent": "upcoming",
+        "publishTime": "2012-11-19T18:38:32Z"
+      }
+    }
+  ]
+}

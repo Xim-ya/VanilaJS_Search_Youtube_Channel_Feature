@@ -9,6 +9,7 @@ const searchForm = document.querySelector('[data-search = form]');
 const channelList = document.querySelector('[data-channel = list]');
 
 
+
 const ACTIVE = 'active'; // Search Bar 애니메이션 Toggle 값.
 const CHANNEL_LOADED = false; // 채널 정보 호출 여부
 
@@ -44,27 +45,28 @@ const onTextInput = (event) => {
 const searchYoutubeChannel = (event) => {
     event.preventDefault();
     // console.log("AIM");
-    // loadYoutubeChannelList();
+    loadYoutubeChannelList();
+    // testLoadYoutubeChannel();
 
 
-    insertChannelItem();
+    // insertChannelItem();
     channelList.classList.add('show');
 
 
 };
 
 
-
 const channelNames = ['침책맨', '오킹', '격과사전', '필'];
 
-const insertChannelItem = () => {
+
+const insertChannelItem = (channelListData) => {
     channelList.innerHTML = ''; // 검색된 채널 list 초기화
     channelList.classList.toggle(ACTIVE);
-    channelNames.map((ele) => {
+    channelListData.map((ele) => {
         channelList.insertAdjacentHTML("beforeend",
             `<li>
             <div class="channel_img"></div>
-                <span class="channel_name">${ele}</span>
+                <span class="channel_name">${ele['snippet']['title']}</span>
            </li>`
         )
     })
@@ -76,6 +78,12 @@ const insertChannelItem = () => {
 //         "beforeend",
 //         `<li data-level="${ele.contributionLevel}"></li>`
 //     );
+
+const testLoadYoutubeChannel = () => {
+    fetch("mockJson.json")
+        .then(response => response.json())
+        .then(json => console.log(json));
+};
 
 
 // const kakaoSign
