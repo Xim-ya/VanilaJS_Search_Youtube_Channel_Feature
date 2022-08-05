@@ -129,7 +129,7 @@ body {
 }
 
 .channel_img {
-    background: url("https://yt3.ggpht.com/ytc/AMLnZu-OoCj8oG4hssfpUAvZ5EPCjBu21krVcB6tkVFsQA=s240-c-k-c0xffffffff-no-rj-mo") no-repeat;
+    /*background: url("https://yt3.ggpht.com/ytc/AMLnZu-OoCj8oG4hssfpUAvZ5EPCjBu21krVcB6tkVFsQA=s240-c-k-c0xffffffff-no-rj-mo") no-repeat;*/
     background-size: cover;
     height: 40px;
     width: 40px;

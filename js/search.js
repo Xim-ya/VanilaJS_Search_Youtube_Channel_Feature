@@ -48,41 +48,9 @@ const searchYoutubeChannel = (event) => {
     loadYoutubeChannelList();
     // testLoadYoutubeChannel();
 
-
     // insertChannelItem();
     channelList.classList.add('show');
 
-
-};
-
-
-const channelNames = ['침책맨', '오킹', '격과사전', '필'];
-
-
-const insertChannelItem = (channelListData) => {
-    channelList.innerHTML = ''; // 검색된 채널 list 초기화
-    channelList.classList.toggle(ACTIVE);
-    channelListData.map((ele) => {
-        channelList.insertAdjacentHTML("beforeend",
-            `<li>
-            <div class="channel_img"></div>
-                <span class="channel_name">${ele['snippet']['title']}</span>
-           </li>`
-        )
-    })
-};
-
-// // 필터링된 배열 데이터를 기준으로 `Square` 컴포넌트 생성
-// contributionList.map((ele) => {
-//     squares.insertAdjacentHTML(
-//         "beforeend",
-//         `<li data-level="${ele.contributionLevel}"></li>`
-//     );
-
-const testLoadYoutubeChannel = () => {
-    fetch("mockJson.json")
-        .then(response => response.json())
-        .then(json => console.log(json));
 };
 
 

@@ -32,7 +32,7 @@ const insertChannelItem = (channelListData) => {
     channelListData.map((ele) => {
         channelList.insertAdjacentHTML("beforeend",
             `<li>
-            <div class="channel_img"></div>
+            <div style="background: url(${ele['snippet']['thumbnails']['medium']['url']})" class="channel_img"></div>
                 <span class="channel_name">${ele['snippet']['title']}</span>
            </li>`
         )
